@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/arco/its/"
+     xml:base="https://w3id.org/arco/its/"
+     xmlns:ns1="https://w3id.org/arco/ontology/context-description/"
+     xmlns:ns2="https://w3id.org/arco/ontology/core/"
+     xmlns:ns3="http://purl.org/dc/elements/1.1/"
+     xmlns:ns4="http://purl.org/NET/c4dm/event.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/arco/its/parade">
+        <rdfs:label>ITS project: from text to knowledge graphs</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/NET/c4dm/event.owl#place -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/NET/c4dm/event.owl#place"/>
+    
+
+
+    <!-- http://purl.org/NET/c4dm/event.owl#time -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/NET/c4dm/event.owl#time"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/hasTitle -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/elements/1.1/hasTitle"/>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/context-description/hasAuthor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/context-description/hasAuthor"/>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/context-description/isInspiredBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/context-description/isInspiredBy"/>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/hasRole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/hasRole"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/arco/TangibleCulturalProperty -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Event -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Event"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/RO/Role -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/RO/Role"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/TI/TimeInterval -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/TI/TimeInterval"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/l0/Agent -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/l0/Agent"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/l0/Location -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/l0/Location"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeAgent/b13d3a58-2eb7-4320-a19c-af5c2a43ca09 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeAgent/b13d3a58-2eb7-4320-a19c-af5c2a43ca09">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agent"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>ORCHESTRA DELL&apos;ARENA DI VERONA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeAgent/dd496b26-e4f7-4e66-8209-22a050733dd9 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeAgent/dd496b26-e4f7-4e66-8209-22a050733dd9">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agent"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/0c278e8a-359d-4941-b08a-32e9fc2bc132"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>DANIELA MAZZUCCATO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeAgent/07f710b9-b78f-4472-acd3-c53d74567258 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeAgent/07f710b9-b78f-4472-acd3-c53d74567258">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agent"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradePerson/73d0cccc-9326-4508-aba8-4e43fcb2e26f"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>PLACIDO DOMINGO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeAgent/3a5ecad2-a747-4e68-a611-330e4ed7ee48 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeAgent/3a5ecad2-a747-4e68-a611-330e4ed7ee48">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agent"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradePerson/18538df7-074a-45de-b9f8-b8be11f59d19"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>GRIGOLO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeAgent/40ff4f71-812c-4484-b50c-bb0dac4bbf14 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeAgent/40ff4f71-812c-4484-b50c-bb0dac4bbf14">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agent"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/e3d46c2b-6d60-4ed4-92c4-c776e0465254"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>LISETTE OROPESA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeEvent/0aad4c71-bfad-4b63-b571-98bc0ef3bf5e -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeEvent/0aad4c71-bfad-4b63-b571-98bc0ef3bf5e">
+        <rdf:type rdf:resource="https://w3id.org/arco/ontology/core/Event"/>
+        <ns4:place rdf:resource="https://w3id.org/arco/its/paradeLocation/108e19d4-0fae-4fcb-97d1-384f5e395761"/>
+        <ns4:time rdf:resource="https://w3id.org/arco/its/paradeTimeInterval/ded81736-803b-4616-a6ec-6c57de4903bd"/>
+        <ns3:hasTitle rdf:resource="https://w3id.org/arco/its/paradeInformationObject/400782a7-2e7a-4504-b8d0-159744256439"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>performance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeInformationObject/b0416a09-a2b1-4786-9098-e1ed5b1e122e -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeInformationObject/b0416a09-a2b1-4786-9098-e1ed5b1e122e">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+        <ns3:hasTitle rdf:resource="https://w3id.org/arco/its/paradeInformationObject/400782a7-2e7a-4504-b8d0-159744256439"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>opera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeInformationObject/cdbb8852-14ef-4b1f-9de0-633d525a74e2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeInformationObject/cdbb8852-14ef-4b1f-9de0-633d525a74e2">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+        <ns1:isInspiredBy rdf:resource="https://w3id.org/arco/its/paradePerson/5c23188a-3ad2-4e0e-80b0-5a2ddd786099"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>beautiful costumes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeInformationObject/1507146a-001f-4d30-bffc-837e8109ff16 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeInformationObject/1507146a-001f-4d30-bffc-837e8109ff16">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+        <ns1:isInspiredBy rdf:resource="https://w3id.org/arco/its/paradePerson/00f41979-b109-4661-8b96-40beac908770"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>lights</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeInformationObject/383d6a1d-5614-4eb5-8d53-39352d2a46e2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeInformationObject/383d6a1d-5614-4eb5-8d53-39352d2a46e2">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+        <ns1:isInspiredBy rdf:resource="https://w3id.org/arco/its/paradePerson/28a380d4-369c-4b9e-8d5a-421837930708"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>staging</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeInformationObject/400782a7-2e7a-4504-b8d0-159744256439 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeInformationObject/400782a7-2e7a-4504-b8d0-159744256439">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+        <ns1:hasAuthor rdf:resource="https://w3id.org/arco/its/paradePerson/c05313f8-9a7d-4500-8639-a17a17394d10"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>La Traviata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeLocation/108e19d4-0fae-4fcb-97d1-384f5e395761 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeLocation/108e19d4-0fae-4fcb-97d1-384f5e395761">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Location"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Arena</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/a51fa8e3-7b10-496c-993c-fa092dc46b20 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/a51fa8e3-7b10-496c-993c-fa092dc46b20">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>ALESSANDRO SPINA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/c05313f8-9a7d-4500-8639-a17a17394d10 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/c05313f8-9a7d-4500-8639-a17a17394d10">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Verdi&apos;s</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/e960a7d6-3864-4c3d-83e0-2d30b94639b4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/e960a7d6-3864-4c3d-83e0-2d30b94639b4">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/87a39696-d479-4ff4-9bd3-64f391d30a62"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>DANIEL GIULIANINI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/efcd4f9d-5140-4ef0-9263-37682d5a67ad -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/efcd4f9d-5140-4ef0-9263-37682d5a67ad">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/ea1fc40a-36ea-4d35-a55f-6840565c19fe"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>GIUSEPPE PICONE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/ffda696e-7937-43b6-86ef-972aadc87e7d -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/ffda696e-7937-43b6-86ef-972aadc87e7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/7fbcab15-2e2f-4313-b998-4d2b2f8383a1"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>VITTORIO GRIGOLO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/00f41979-b109-4661-8b96-40beac908770 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/00f41979-b109-4661-8b96-40beac908770">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>PAOLO MAZZON</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/18d71fec-4b97-46f1-8b39-bdfc1ceede49 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/18d71fec-4b97-46f1-8b39-bdfc1ceede49">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/7a79a7b9-17b8-415f-b117-70939aeacdd4"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>CARLO BOSI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/18538df7-074a-45de-b9f8-b8be11f59d19 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/18538df7-074a-45de-b9f8-b8be11f59d19">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Alfredo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/19829192-5b9b-4eac-b4bd-a2025654bb94 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/19829192-5b9b-4eac-b4bd-a2025654bb94">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Maestro VITO LOMBARDI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/26368efd-458e-4bfd-b600-d3289027e269 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/26368efd-458e-4bfd-b600-d3289027e269">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/c6cec2bd-f383-44a8-9b2a-fd2c2d0c03ca"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>MAX RENÉ COSSOTTI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/28a380d4-369c-4b9e-8d5a-421837930708 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/28a380d4-369c-4b9e-8d5a-421837930708">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Franco Zeffirelli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/4c0dc344-00ab-497c-86fc-e8615c16a863 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/4c0dc344-00ab-497c-86fc-e8615c16a863">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/3b12d1ca-398b-4965-a1b8-3efbf4cd55c4"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>GIANFRANCO MONTRESOR</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/4e1286bf-4d13-4652-9d5a-4e8fd172a86f -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/4e1286bf-4d13-4652-9d5a-4e8fd172a86f">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/20df04ae-24b5-4250-9b5c-8a9d0c6133a2"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>CLARISSA LEONARDI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/42a727be-4967-468b-819d-d625abec179d -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/42a727be-4967-468b-819d-d625abec179d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/ea1fc40a-36ea-4d35-a55f-6840565c19fe"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>PETRA CONTI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/5c23188a-3ad2-4e0e-80b0-5a2ddd786099 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/5c23188a-3ad2-4e0e-80b0-5a2ddd786099">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>MAURIZIO MILLENOTTI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/5d6e2e71-6209-47be-aee5-d6847e0d13b4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/5d6e2e71-6209-47be-aee5-d6847e0d13b4">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradeRole/d0f5fea8-2fa5-4fbe-bc7e-46e41f0a71a0"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>STEFANO RINALDI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/712fc95b-491f-4418-ba7d-553944e1cd62 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/712fc95b-491f-4418-ba7d-553944e1cd62">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>MARCO ARMILIATO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradePerson/73d0cccc-9326-4508-aba8-4e43fcb2e26f -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradePerson/73d0cccc-9326-4508-aba8-4e43fcb2e26f">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Germont.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/c6cec2bd-f383-44a8-9b2a-fd2c2d0c03ca -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/c6cec2bd-f383-44a8-9b2a-fd2c2d0c03ca">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Giuseppe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/d0f5fea8-2fa5-4fbe-bc7e-46e41f0a71a0 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/d0f5fea8-2fa5-4fbe-bc7e-46e41f0a71a0">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>servant and  commissioner</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/e3d46c2b-6d60-4ed4-92c4-c776e0465254 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/e3d46c2b-6d60-4ed4-92c4-c776e0465254">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Violetta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/ea1fc40a-36ea-4d35-a55f-6840565c19fe -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/ea1fc40a-36ea-4d35-a55f-6840565c19fe">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>principal dancer.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/0c278e8a-359d-4941-b08a-32e9fc2bc132 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/0c278e8a-359d-4941-b08a-32e9fc2bc132">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Annina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/20df04ae-24b5-4250-9b5c-8a9d0c6133a2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/20df04ae-24b5-4250-9b5c-8a9d0c6133a2">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Flora</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/3b12d1ca-398b-4965-a1b8-3efbf4cd55c4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/3b12d1ca-398b-4965-a1b8-3efbf4cd55c4">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Baron Duphol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/5565694c-d343-4fcd-ab4b-55aef8c514fd -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/5565694c-d343-4fcd-ab4b-55aef8c514fd">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <ns2:hasRole rdf:resource="https://w3id.org/arco/its/paradePerson/a51fa8e3-7b10-496c-993c-fa092dc46b20"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Doctor Grenvil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/7a79a7b9-17b8-415f-b117-70939aeacdd4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/7a79a7b9-17b8-415f-b117-70939aeacdd4">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Gastone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/7fbcab15-2e2f-4313-b998-4d2b2f8383a1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/7fbcab15-2e2f-4313-b998-4d2b2f8383a1">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Alfredo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeRole/87a39696-d479-4ff4-9bd3-64f391d30a62 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeRole/87a39696-d479-4ff4-9bd3-64f391d30a62">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RO/Role"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>Marchese</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeTangibleCulturalProperty/413e4dfd-fe15-42ee-8c31-c2b002717076 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeTangibleCulturalProperty/413e4dfd-fe15-42ee-8c31-c2b002717076">
+        <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+        <ns1:isInspiredBy rdf:resource="https://w3id.org/arco/its/paradePerson/19829192-5b9b-4eac-b4bd-a2025654bb94"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>ARENA CHORUS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeTangibleCulturalProperty/782af268-657f-4493-be23-3cb9119961f4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeTangibleCulturalProperty/782af268-657f-4493-be23-3cb9119961f4">
+        <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>ARENA FOR TRAVIATA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeTangibleCulturalProperty/858bdf35-fd48-457d-9553-572caa0ca61f -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeTangibleCulturalProperty/858bdf35-fd48-457d-9553-572caa0ca61f">
+        <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/TangibleCulturalProperty"/>
+        <ns4:place rdf:resource="https://w3id.org/arco/its/paradeRole/ea1fc40a-36ea-4d35-a55f-6840565c19fe"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>ARENA DI VERONA BALL COURSE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/arco/its/paradeTimeInterval/ded81736-803b-4616-a6ec-6c57de4903bd -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/arco/its/paradeTimeInterval/ded81736-803b-4616-a6ec-6c57de4903bd">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/TI/TimeInterval"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/arco/its/"/>
+        <rdfs:label>August 1st</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
